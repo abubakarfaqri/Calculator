@@ -8,9 +8,7 @@ class SplashScreen extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Container(
-          child: Icon(Icons.calculate_rounded,
-          size: 30,
-          ),
+          child: Image.asset("assets/images/apple.png"),
         ),
       ),
     );
