@@ -82,7 +82,7 @@ class _CalculatorState extends State<Calculator> {
           //bottons Area
           Row(
             children: [
-              button(text: 'AC', buttonBgColor: operatorColor, tColor: orangeColor,), 
+              
               button(text: '<',buttonBgColor: operatorColor, tColor: orangeColor,), 
               button(text: '',buttonBgColor: Colors.transparent), 
               button(text: '/',buttonBgColor: operatorColor, tColor: orangeColor,), 
